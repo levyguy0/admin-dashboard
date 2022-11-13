@@ -10,6 +10,9 @@
     
 
 }
+:root {
+    --text-color:#323232b7;
+}
 
 body {
     overflow:hidden;
@@ -135,7 +138,7 @@ li::before {
   }
 
   .card p {
-    color: black;
+    color: var(--text-color);
     font-weight: normal;
     font-size: 14px;
   }
@@ -149,6 +152,7 @@ li::before {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: repeat(2, 1fr);
     gap: 15px;
+
   }
   
 
@@ -254,6 +258,7 @@ h1.title {
 .article {
     position:relative;
     top:20px;
+
 }
 .article .card {
     background-color:#ffffff;
@@ -269,3 +274,156 @@ h1.title {
 .projects {
     font-weight:600;
 }
+
+.title1 {
+    position:relative;
+    top:-67px;
+    font-weight:600;
+    font-size:1.3rem;
+    left:-30px;
+}
+
+.text {
+    position: relative;
+    top:-52px;
+    color:var(--text-color);
+
+}
+
+.announcements h2 {
+    font-weight:600;
+    font-size:1rem;
+    color:black;
+}
+
+
+
+.announcements p {
+    font-size:0.8rem;
+    width:200px;
+}
+
+.announcements {
+    background-color:white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius:10px;
+    height:300px;
+    padding:2em;
+    width:300px;
+    position:relative;
+    top:47px;
+}
+
+.trending {
+    background-color:white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius:10px;
+    height:200px;
+    width:300px;
+    position:relative;
+    top:-40px;
+}
+
+.title2 {
+    position:relative;
+    top:-95px;
+    font-weight:600;
+    font-size:1.3rem;
+}
+
+.desc {
+    padding:0.3em;
+    margin-left:25%;
+    position:relative;
+    top:-75px;
+}
+
+.desc span {
+    font-size:0.9rem;
+    color:#323232b7;
+}
+
+.linebr1 {
+    color:#c0c0c0;
+    position:relative;
+    top:-80px;
+    left:-8px; 
+}
+
+.text2 {
+    position:relative;
+    top:-70px;
+    color:var(--text-color)
+}
+
+.linebr2 {
+    color:#c0c0c0;
+    position:relative;
+    top:-95px;
+    left:-8px;
+}
+
+.text3 {
+    position:relative;
+    top:-90px;
+    color:var(--text-color)
+}
+
+.penguin {
+    height:55px;
+    width:55px;
+    border-radius:50%;
+    position:relative;
+    top:17px;
+    left:10px;
+}
+
+.penguin2 {
+    height:55px;
+    width:55px;
+    border-radius:50%;
+    position:relative;
+    top:-120px;
+    left:10px;
+}
+
+.squirrel {
+    height:55px;
+    width:55px;
+    border-radius:50%;
+    position:relative;
+    top:-65px;
+    left:10px;
+
+}
+
+.d2 {
+    position:relative;
+    top:-125px;
+}
+
+.d3 {
+    position:relative;
+    top:-185px;
+}
+
+button {
+    background:#2e8fea;
+    border:none;
+    border-radius:16px;
+    padding:1em;
+    color:white;
+    padding-left:3em;
+    padding-right:3em;
+    position:relative;
+    top:-50px;
+}
+
+.username {
+    font-weight:700;
+    font-size:1.2em;
+    position:relative;
+    left:250px;
+    top:20px;
+}
+
